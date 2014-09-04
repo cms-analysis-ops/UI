@@ -3,7 +3,7 @@
 # redefines and alias for bash (yes, someone does it)
 set bashalias = `alias bash`
 unalias bash
-source /afs/cern.ch/project/gd/LCG-share/3.2.10-1/etc/profile.d/grid_env.csh
+source /afs/cern.ch/project/gd/LCG-share/3.2.11-1/etc/profile.d/grid_env.csh
 alias bash $bashalias
 
 # directory with CMS customizations
