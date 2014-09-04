@@ -14,11 +14,7 @@ endif
 
 
 if ($SLCversion == "6") then
-  setenv GRID_ENV_LOCATION /afs/cern.ch/cms/LCG/LCG-2/UI/DUMMY
-  echo "SLC6 detected"
-  echo " full gLite UI is not supported yet on lxplus6"
-  echo " a dummy GRID_ENV_LOCATON env.var. is defined by this script for use in Crab2"
-  echo " Note that voms*, myproxy* and lcg-* commands are in /usr/bin and"
-  echo " will work w/o any setup, if you need more, stick to lxplus5 or"
-  echo " contact CERN help desk"
+  echo " cms_ui_env.sh was called, but does nothing on SLC6"
+  echo " if you sourced this script in order to use CRAB2 on lxplus6, don't do it"
+  echo " as of CRAB_2_10_7, crab2 works on lxplus6 w/o any UI setup"
 endif
